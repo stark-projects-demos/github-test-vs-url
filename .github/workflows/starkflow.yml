@@ -89,7 +89,7 @@ jobs:
           # [Optional] Run puppeteer in stealth mode. Attempts to hide puppeteer from your server. Won't be necessary for localhost
           # Note: Uses puppeteer-extra stealth-mode. This is not a guaranteed way to hide usage of automated software to control browsers.
           # Defaults to false (use if you have bot checks in your server code)
-          stealth_mode: false
+          stealth_mode: true
 
           # [Optional] If a url scan failed, scans the next one without failing the action.
           # Defaults to false
